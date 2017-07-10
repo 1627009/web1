@@ -10,7 +10,7 @@ var change = function(input){
   var ten           = Math.floor((input / 10000 / 5000 / 1000 / 500 / 100 / 50) % 10);
   var five          = Math.floor((input / 10000 / 5000 / 1000 / 500 / 100 / 50 / 10) % 5);
   var one           = Math.floor(input / 10000 / 5000 / 1000 / 500 / 100 / 50 / 10 / 5);*/
-  var change_number[9];
+  var change_number[];
   var div_number[9] = {10000, 5000, 1000, 500, 100, 50, 10, 5, 1};
   var input_rem = input;
   for(var i = 0;i < 9;i++)
