@@ -14,13 +14,40 @@ var change = function(input)
 }
 
 var change_answer = change(input);
-document.getElementById('list').textContent =
-  '1万円' + change_answer[0] + '枚\n' +
-  '5千円' + change_answer[1] + '枚\n' +
-  '千円'  + change_answer[2] + '枚\n' +
-  '500円' + change_answer[3] + '枚\n' +
-  '100円' + change_answer[4] + '枚\n' +
-  '50円'  + change_answer[5] + '枚\n' +
-  '10円'  + change_answer[6] + '枚\n' +
-  '5円'   + change_answer[7] + '枚\n' +
-  '1円'   + change_answer[8] + '枚';
+document.createElement('list');
+
+for(i = 0; i < 9; i++)
+{
+  li.textContent = 
+  switch(i){
+    case 1:
+      '1万円'
+      break;
+    case 2:
+      '5千円'
+      break;
+    case 3:
+      '千円'
+      break;
+    case 4:
+      '500円'
+      break;
+    case 5:
+      '100円'
+      break;
+    case 6:
+      '50円'
+      break;
+    case 7:
+      '10円'
+      break;
+    case 8:
+      '5円'
+      break;
+    case 9:
+      '1円'
+      break;
+  }
+  + change_answer[0] + '枚';
+  document.getElementById('list').appendChild(li);
+}
