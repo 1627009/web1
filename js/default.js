@@ -2,7 +2,7 @@ var input = 12345;
 
 var change = function(input)
 {
-  var change_number[9];
+  var change_number = new Array(9);
   var div_number[9] = [10000, 5000, 1000, 500, 100, 50, 10, 5, 1];
   var input_rem = input;
   for(var i = 0; i < 9; i++)
@@ -13,14 +13,14 @@ var change = function(input)
   return change_number[0];
 }
 
-var change_anser = change(input);
+var change_answer = change(input);
 document.getElementById('input').textContent =
-  '1万円' + change_anser[0] + '枚\n' +
-  '5千円' + change_anser[1] + '枚\n' +
-  '千円'  + change_anser[2] + '枚\n' +
-  '500円' + change_anser[3] + '枚\n' +
-  '100円' + change_anser[4] + '枚\n' +
-  '50円'  + change_anser[5] + '枚\n' +
-  '10円'  + change_anser[6] + '枚\n' +
-  '5円'   + change_anser[7] + '枚\n' +
-  '1円'   + change_anser[8] + '枚';
+  '1万円' + change_answer[0] + '枚\n' +
+  '5千円' + change_answer[1] + '枚\n' +
+  '千円'  + change_answer[2] + '枚\n' +
+  '500円' + change_answer[3] + '枚\n' +
+  '100円' + change_answer[4] + '枚\n' +
+  '50円'  + change_answer[5] + '枚\n' +
+  '10円'  + change_answer[6] + '枚\n' +
+  '5円'   + change_answer[7] + '枚\n' +
+  '1円'   + change_answer[8] + '枚';
