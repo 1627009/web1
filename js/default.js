@@ -18,7 +18,7 @@ var change_answer = change(input);
 for(i = 0; i < 9; i++)
 {
   var li = document.createElement('li');
-  var count = 0;
+  var count = -1;
   
   if(change_answer[i] == 0)
     cotinue;
