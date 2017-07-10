@@ -4,11 +4,11 @@ var change = function(input){
   var ten_thousand  = Math.floor(input % 10000);
   var five_thousand = Math.floor((input / 10000) % 5000);
   var thousand      = Math.floor((input / 10000 / 5000) % 1000);
-  var five_hundred  = Math.floor(input / 10000 / 5000 / 1000) % 500);
-  var hundred       = Math.floor(input / 10000 / 5000 / 1000 / 500) % 100);
-  var fifty         = Math.floor(input / 10000 / 5000 / 1000 / 500 / 100) % 50);
-  var ten           = Math.floor(input / 10000 / 5000 / 1000 / 500 / 100 / 50) % 10);
-  var five          = Math.floor(input / 10000 / 5000 / 1000 / 500 / 100 / 50 / 10) % 5);
+  var five_hundred  = Math.floor((input / 10000 / 5000 / 1000) % 500);
+  var hundred       = Math.floor((input / 10000 / 5000 / 1000 / 500) % 100);
+  var fifty         = Math.floor((input / 10000 / 5000 / 1000 / 500 / 100) % 50);
+  var ten           = Math.floor((input / 10000 / 5000 / 1000 / 500 / 100 / 50) % 10);
+  var five          = Math.floor((input / 10000 / 5000 / 1000 / 500 / 100 / 50 / 10) % 5);
   var one           = Math.floor(input / 10000 / 5000 / 1000 / 500 / 100 / 50 / 10 / 5);
   return [ten_thousand, five_thousand, thousand, five_hundred, hundred, fifty, ten, five, one];
 }
