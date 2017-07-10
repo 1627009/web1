@@ -10,7 +10,7 @@ var change = function(input)
     change_number[i] = input_rem / div_number[i];
     input_rem -= div_number[i] * change_number[i];
   }
-  return change_number[0];
+  return change_number;
 }
 
 var change_answer = change(input);
