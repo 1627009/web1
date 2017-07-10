@@ -14,7 +14,7 @@ var change = function(input)
 }
 
 var change_answer = change(input);
-document.getElementById('input').textContent =
+document.getElementById('list').textContent =
   '1万円' + change_answer[0] + '枚\n' +
   '5千円' + change_answer[1] + '枚\n' +
   '千円'  + change_answer[2] + '枚\n' +
