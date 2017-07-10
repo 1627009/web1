@@ -7,7 +7,7 @@ var change = function(input)
   var input_rem = input;
   for(var i = 0; i < 9; i++)
   {
-    change_number[i] = input_rem / div_number[i];
+    change_number[i] = Math.floor(input_rem / div_number[i]);
     input_rem -= div_number[i] * change_number[i];
   }
   return change_number;
