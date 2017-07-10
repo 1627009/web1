@@ -18,7 +18,6 @@ document.createElement('list');
 
 for(i = 0; i < 9; i++)
 {
-  li.textContent = 
   switch(i){
     case 1:
        li.textContent = '1万円' + change_answer[i] + '枚';
