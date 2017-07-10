@@ -14,7 +14,7 @@ var change = function(input)
 }
 
 var change_answer = change(input);
-document.createElement('list');
+document.createElement('li');
 
 for(i = 0; i < 9; i++)
 {
