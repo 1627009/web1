@@ -21,33 +21,32 @@ for(i = 0; i < 9; i++)
   li.textContent = 
   switch(i){
     case 1:
-      '1万円'
+       li.textContent = '1万円' + change_answer[i] + '枚';
       break;
     case 2:
-      '5千円'
+       li.textContent = '5千円' + change_answer[i] + '枚';
       break;
     case 3:
-      '千円'
+       li.textContent = '千円' + change_answer[i] + '枚';
       break;
     case 4:
-      '500円'
+       li.textContent = '500円' + change_answer[i] + '枚';
       break;
     case 5:
-      '100円'
+       li.textContent = '100円' + change_answer[i] + '枚';
       break;
     case 6:
-      '50円'
+       li.textContent = '50円' + change_answer[i] + '枚';
       break;
     case 7:
-      '10円'
+       li.textContent = '10円' + change_answer[i] + '枚';
       break;
     case 8:
-      '5円'
+       li.textContent = '5円' + change_answer[i] + '枚';
       break;
     case 9:
-      '1円'
+       li.textContent = '1円' + change_answer[i] + '枚';
       break;
   }
-  + change_answer[0] + '枚';
   document.getElementById('list').appendChild(li);
 }
