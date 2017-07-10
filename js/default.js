@@ -1,8 +1,8 @@
 var input = 12345;
 
 var change = function(input){
-  var change_number[9];
-  var div_number[9] = {10000, 5000, 1000, 500, 100, 50, 10, 5, 1};
+  /*var change_number[9];
+  var div_number[9] = {10000, 5000, 1000, 500, 100, 50, 10, 5, 1};*/
   var input_rem = input;
   for(var i = 0; i < 9; i++){
     change_number[i] = input_rem / div_number[i];
