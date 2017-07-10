@@ -1,7 +1,7 @@
 var input = 12345;
 
 var change = function(input){
-  var ten_thousand  = Math.floor(input % 10000);
+  var ten_thousand  = Math.floor(input / 10000);
   var five_thousand = Math.floor((input / 10000) % 5000);
   var thousand      = Math.floor((input / 10000 / 5000) % 1000);
   var five_hundred  = Math.floor((input / 10000 / 5000 / 1000) % 500);
