@@ -14,38 +14,29 @@ var change = function(input)
 }
 
 var change_answer = change(input);
-document.createElement('li');
 
 for(i = 0; i < 9; i++)
 {
-  switch(i){
-    case 1:
-       li.textContent = '1万円' + change_answer[i] + '枚';
-      break;
-    case 2:
-       li.textContent = '5千円' + change_answer[i] + '枚';
-      break;
-    case 3:
-       li.textContent = '千円' + change_answer[i] + '枚';
-      break;
-    case 4:
-       li.textContent = '500円' + change_answer[i] + '枚';
-      break;
-    case 5:
-       li.textContent = '100円' + change_answer[i] + '枚';
-      break;
-    case 6:
-       li.textContent = '50円' + change_answer[i] + '枚';
-      break;
-    case 7:
-       li.textContent = '10円' + change_answer[i] + '枚';
-      break;
-    case 8:
-       li.textContent = '5円' + change_answer[i] + '枚';
-      break;
-    case 9:
-       li.textContent = '1円' + change_answer[i] + '枚';
-      break;
-  }
+  document.createElement('li');
+  
+  if(i == 1)
+    li.textContent = '1万円' + change_answer[i] + '枚';   
+  else if(i == 2)
+    li.textContent = '5千円' + change_answer[i] + '枚';
+  else if(i == 3)
+    li.textContent = '千円' + change_answer[i] + '枚';
+  else if(i == 4)
+    li.textContent = '500円' + change_answer[i] + '枚';
+  else if(i == 5)
+   li.textContent = '100円' + change_answer[i] + '枚';
+  else if(i == 6)
+   li.textContent = '50円' + change_answer[i] + '枚';
+  else if(i == 7)
+   li.textContent = '10円' + change_answer[i] + '枚';
+  else if(i == 8)
+   li.textContent = '5円' + change_answer[i] + '枚';
+  else
+   li.textContent = '1円' + change_answer[i] + '枚';
+  
   document.getElementById('list').appendChild(li);
 }
