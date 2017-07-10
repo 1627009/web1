@@ -17,7 +17,7 @@ var change_answer = change(input);
 
 for(i = 0; i < 9; i++)
 {
-  document.createElement('li');
+  var li = document.createElement('li');
   
   if(i == 0)
     li.textContent = '1万円' + change_answer[i] + '枚';   
