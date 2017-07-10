@@ -20,10 +20,10 @@ for(i = 0; i < 9; i++)
   var li = document.createElement('li');
   var count = -1;
   
-  if(change_answer[i] == 0)
-    continue;
+  //if(change_answer[i] == 0)
+    //continue;
   
-  count++;
+  //count++;
   
   if(i == 0)
     li.textContent = '1万円\t' + change_answer[count] + '枚';   
