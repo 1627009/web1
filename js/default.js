@@ -15,12 +15,12 @@ var change = function(input){
 
 var change_anser = change(input);
 document.getElementById('input').textContent =
-  '1万円' + change_anser[0] + '枚' +
-  '5千円' + change_anser[1] + '枚' +
-  '千円' + change_anser[2] + '枚' +
-  '500円' + change_anser[3] + '枚' +
-  '100円' + change_anser[4] + '枚' +
-  '50円' + change_anser[5] + '枚' +
-  '10円' + change_anser[6] + '枚' +
-  '5円' + change_anser[7] + '枚' +
-  '1円' + change_anser[8] + '枚';
+  '1万円' + change_anser[0] + '枚\n' +
+  '5千円' + change_anser[1] + '枚\n' +
+  '千円'  + change_anser[2] + '枚\n' +
+  '500円' + change_anser[3] + '枚\n' +
+  '100円' + change_anser[4] + '枚\n' +
+  '50円'  + change_anser[5] + '枚\n' +
+  '10円'  + change_anser[6] + '枚\n' +
+  '5円'   + change_anser[7] + '枚\n' +
+  '1円'   + change_anser[8] + '枚';
