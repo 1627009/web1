@@ -16,7 +16,7 @@ var change = function(input){
   for(var i = 0;i < 9;i++)
   {
     change_number[i] = input_rem / div_number[i];
-    input_rem = div_number[i] * change_number[i];
+    input_rem -= div_number[i] * change_number[i];
   }
   return [change_number[0], change_number[1], change_number[2], change_number[3], change_number[4], change_number[5], change_number[6], change_number[7], change_number[8]];
 }
