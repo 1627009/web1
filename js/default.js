@@ -21,7 +21,7 @@ for(i = 0; i < 9; i++)
   var count = -1;
   
   if(change_answer[i] == 0)
-    cotinue;
+    continue;
   
   count++;
   
