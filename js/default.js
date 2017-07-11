@@ -1,4 +1,8 @@
-var input = 12345;
+var input;
+
+document.getElementById('form').onsubmit = function(){
+  input = document.getElementById('form').input.value;
+}
 
 var change = function(input)
 {
