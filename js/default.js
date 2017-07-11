@@ -1,6 +1,6 @@
 document.getElementById('form').onsubmit = function(){
-  var input;
-  input = document.getElementById('form').input.value;
+  var input = document.getElementById('form').input.value;
+  var change_answer = change(input);
 }
 
 var change = function(input)
@@ -15,8 +15,6 @@ var change = function(input)
   }
   return change_number;
 }
-
-var change_answer = change(input);
 
 for(i = 0; i < 9; i++)
 {
