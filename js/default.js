@@ -1,6 +1,5 @@
-var input;
-
 document.getElementById('form').onsubmit = function(){
+  var input;
   input = document.getElementById('form').input.value;
 }
 
