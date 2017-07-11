@@ -1,23 +1,9 @@
 document.getElementById('form').onsubmit = function(){
   var input = document.getElementById('form').input.value;
   var change_answer = change(input);
-}
-
-var change = function(input)
-{
-  var change_number = new Array(9);
-  var div_number = [10000, 5000, 1000, 500, 100, 50, 10, 5, 1];
-  var input_rem = input;
-  for(var i = 0; i < 9; i++)
+  
+  for(i = 0; i < 9; i++)
   {
-    change_number[i] = Math.floor(input_rem / div_number[i]);
-    input_rem -= div_number[i] * change_number[i];
-  }
-  return change_number;
-}
-
-for(i = 0; i < 9; i++)
-{
   var li = document.createElement('li');
   
   if(change_answer[i] > 0)
@@ -43,4 +29,18 @@ for(i = 0; i < 9; i++)
    li.textContent = '1円\t' + change_answer[i] + '枚';
   
   document.getElementById('list').appendChild(li);
+  }
+}
+
+var change = function(input)
+{
+  var change_number = new Array(9);
+  var div_number = [10000, 5000, 1000, 500, 100, 50, 10, 5, 1];
+  var input_rem = input;
+  for(var i = 0; i < 9; i++)
+  {
+    change_number[i] = Math.floor(input_rem / div_number[i]);
+    input_rem -= div_number[i] * change_number[i];
+  }
+  return change_number;
 }
