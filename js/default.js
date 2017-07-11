@@ -6,7 +6,7 @@ document.getElementById('form').onsubmit = function(){
   {
     var li = document.createElement('li');
 
-    if(change_answer[i] > 0)
+    if(change_answer[i] == 0)
       continue;
 
     if(i == 0)
