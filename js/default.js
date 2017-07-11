@@ -6,8 +6,8 @@ document.getElementById('form').onsubmit = function(){
   {
     var li = document.createElement('li');
 
-    /*if(change_answer[i] == 0)
-      continue;*/
+    if(change_answer[i] == 0)
+      continue;
 
     if(i == 0)
       li.textContent = '1万円\t' + change_answer[i] + '枚';   
@@ -29,9 +29,8 @@ document.getElementById('form').onsubmit = function(){
      li.textContent = '1円\t' + change_answer[i] + '枚';
 
     document.getElementById('list').appendChild(li);
-
-    return false;
   }
+  return false;
 }
 
 var change = function(input)
