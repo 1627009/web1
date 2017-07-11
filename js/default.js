@@ -23,7 +23,7 @@ for(i = 0; i < 9; i++)
 {
   var li = document.createElement('li');
   
-  if(change_answer[i] == 0)
+  if(change_answer[i] > 0)
     continue;
   
   if(i == 0)
