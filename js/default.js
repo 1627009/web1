@@ -29,6 +29,8 @@ document.getElementById('form').onsubmit = function(){
    li.textContent = '1円\t' + change_answer[i] + '枚';
   
   document.getElementById('list').appendChild(li);
+    
+  return false;
   }
 }
 
