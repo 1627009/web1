@@ -16,8 +16,6 @@ section{
 .btn{
   -webkit-appearance:none;
   -webkit-border-radius:0;
-  margin:2px;
-  padding:10px;
   border:none;
   font-size:24px;
   background-color:#800000;
