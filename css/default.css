@@ -28,6 +28,10 @@ p{
  text-align: center;
 }
 
+section{
+  text-align: center;
+}
+
 .btn{
   -webkit-appearance:none;
   -webkit-border-radius:0;
