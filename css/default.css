@@ -4,3 +4,11 @@ body{
   font-family: "Mplus 1p"; 
   background-color: #66cdaa;
 }
+
+h1{
+  text-align: center;
+}
+
+section{
+  text-align: center;
+}
