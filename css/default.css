@@ -17,7 +17,7 @@ section{
   -webkit-appearance:none;
   -webkit-border-radius:0;
   border:none;
-  background-color:#800000;
+  background-color:#00bfff;
 }
 
 .btn:hover{
@@ -26,4 +26,8 @@ section{
 
 .btn:active{
   color:white;
+}
+
+ul {
+  list-style:none;
 }
