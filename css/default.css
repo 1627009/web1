@@ -5,7 +5,7 @@ body{
   background-color: #66cdaa;
   margin-right: auto;
   margin-left : auto;
-  width: 400px;
+  width: 800px;
 }
 
 header{
@@ -34,6 +34,11 @@ form{
 
 ul{
   text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
 }
 
 .btn{
