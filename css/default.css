@@ -28,8 +28,13 @@ p{
  text-align: center;
 }
 
-section{
+ui{
   text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 0 10px;
 }
 
 .btn{
